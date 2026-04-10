@@ -1,1 +1,2 @@
 # RealTimePlotting
+This script reads data from two txt files simultaneously, one dedicated to pressure and the other to the environment (temperature, relative humidity, and dew point). This data comes from an EZO PRS and EZO HUM which are connected to separate arduino uno's. The data is read from the sensors using the Arduino IDE software which we can use to send commands to the sensors. Then a software, CoolTerm, is used to take this data and continously update it into a txt file. 
